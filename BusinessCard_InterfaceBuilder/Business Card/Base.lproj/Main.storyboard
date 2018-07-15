@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Business_Card" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fernando Benavides" translatesAutoresizingMaskIntoConstraints="NO" id="Nmf-f5-c0X">
+                                <rect key="frame" x="87" y="233" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="NqH-V4-S0c"/>
+                                    <constraint firstAttribute="width" constant="200" id="ndZ-Es-MOX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fernando Javier Benavides Rodríguez" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQZ-Iq-CCv">
+                                <rect key="frame" x="0.0" y="25" width="375" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="ecd-yc-1cF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s26-tr-x6E">
+                                <rect key="frame" x="0.0" y="448" width="375" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="hP1-fM-zTg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+(52) 3173851431" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cw8-dd-maD">
+                                <rect key="frame" x="0.0" y="626" width="141" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="KZV-vp-pSE"/>
+                                    <constraint firstAttribute="height" constant="21" id="QvK-2D-PHs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nockzblack@gmail.com" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXa-yn-N6m">
+                                <rect key="frame" x="149" y="626" width="226" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="aZG-2u-Vs9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Some Top Tech Company" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2X-S3-ebE">
+                                <rect key="frame" x="0.0" y="482" width="375" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="fwv-mc-Wmt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CXa-yn-N6m" secondAttribute="bottom" constant="20" id="61P-Un-hbY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s26-tr-x6E" secondAttribute="trailing" id="B8r-7L-TUD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Cw8-dd-maD" secondAttribute="bottom" constant="20" id="EBq-lG-gAs"/>
+                            <constraint firstItem="Cw8-dd-maD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GfK-KR-gCW"/>
+                            <constraint firstItem="aQZ-Iq-CCv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="Lou-MD-CMO"/>
+                            <constraint firstItem="f2X-S3-ebE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Y0l-MA-89n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CXa-yn-N6m" secondAttribute="trailing" id="eXh-SG-xpR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aQZ-Iq-CCv" secondAttribute="trailing" id="fH1-Bo-Y9H"/>
+                            <constraint firstItem="Nmf-f5-c0X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fpj-1Z-Uw0"/>
+                            <constraint firstItem="s26-tr-x6E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jXC-ak-hRD"/>
+                            <constraint firstItem="f2X-S3-ebE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kk7-zH-vfP"/>
+                            <constraint firstItem="f2X-S3-ebE" firstAttribute="top" secondItem="Nmf-f5-c0X" secondAttribute="bottom" constant="49" id="mxe-Ti-DRd"/>
+                            <constraint firstItem="aQZ-Iq-CCv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qI8-me-Cwy"/>
+                            <constraint firstItem="s26-tr-x6E" firstAttribute="top" secondItem="Nmf-f5-c0X" secondAttribute="bottom" constant="15" id="rZe-kq-G7d"/>
+                            <constraint firstItem="Nmf-f5-c0X" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xyd-qf-Z8E"/>
+                            <constraint firstItem="CXa-yn-N6m" firstAttribute="leading" secondItem="Cw8-dd-maD" secondAttribute="trailing" constant="8" id="ypl-lS-Cyg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageProfile" destination="Nmf-f5-c0X" id="nGs-Xd-RP8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Fernando Benavides" width="960" height="960"/>
+    </resources>
+</document>
